@@ -1,0 +1,8 @@
+<div class = "d-flex flex-column justify-content-center gap-3 border border-secondary m-2 p-2" *ngFor="let person of characters">
+    <h2><strong>{{person.name}}</strong></h2>
+    <p><strong>Height</strong>: {{person.height}}</p>
+    <p><strong>Birth Year</strong>: {{person.birth_year}}</p>
+    <p><strong>Mass</strong>: {{person.mass}}</p>
+    <p><strong>Homeworld</strong>: <a href="{{person.homeworld}}">Link</a></p>
+
+</div>
